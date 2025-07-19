@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Shared Styles  */
+
+.flex {
+    display: flex;
+}
+
+.primary-color {
+    color: #3A3A3A;
+}
+
+.secondary-color {
+    color: #18191F;
+}
+
+.accent-color {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.gray {
+    color: #5E6366;
+}
+
+.header-container {
+    margin: 0 120px;
+}
+
+.btn-primary {
+    background-color: #E02C6D;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 41px;
+
+}
+
+
+/* Header section styles  */
+
+/* navbar styles  */
+
+.navbar {
+    justify-content: space-between;
+    margin: 85px 120px 0px;
+}
+
+.nav-list {
+    gap: 34px;
+}
+
+.navbar ul li {
+    list-style: none;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+}
+
+.nav-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-item {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Header  */
+
+.header-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    align-items: center;
+}
+
+.header-info {
+    max-width: 580px;
+}
+
+.header-title {
+    font-size: 3.25rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.header-description {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.header-image-container {
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.circle-bg {
+    position: absolute;
+    z-index: 1;
+}
+
+.camera-image {
+    position: relative;
+    z-index: 2;
+    top: 20px;
+}
