@@ -57,6 +57,10 @@ body {
 
 }
 
+span {
+    margin-right: 5px;
+}
+
 
 /* Header section styles  */
 
@@ -133,6 +137,25 @@ body {
 }
 
 
+
+/* Sponsor Section Styles  */
+
+.sponsor-container {
+    width: 1110px;
+    margin: 170px auto 110px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 60px;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 35px 0;
+    text-align: center;
+    background-image:
+}
+
+
+
+
 /* Media Query  */
 
 @media screen and (max-width:576px) {
@@ -171,6 +194,14 @@ body {
 
     .camera-image {
         width: 80%;
+    }
+
+    .sponsor-container {
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        padding: 20px;
+        margin-top: 50px;
     }
 
 }
@@ -213,5 +244,13 @@ body {
         order: -2;
     }
 
+
+    .sponsor-container {
+        width: auto;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+        padding-left: 40px;
+        margin-top: 50px;
+    }
 
 }
