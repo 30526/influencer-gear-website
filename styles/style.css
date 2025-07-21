@@ -365,6 +365,12 @@ footer {
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
     }
+
+    .featured {
+        flex-direction: column-reverse;
+        margin: 0 20px 50px;
+    }
+
 }
 
 
@@ -418,4 +424,13 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .featured {
+        /* flex-direction: column-reverse; */
+        margin: 0 20px 50px;
+    }
+
+    .feature-title,
+    .feature-description {
+        margin-bottom: 5px;
+    }
 }
