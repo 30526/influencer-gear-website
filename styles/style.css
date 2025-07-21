@@ -150,8 +150,10 @@ span {
 .sponsor-container {
     width: 1110px;
     margin: 170px auto 110px;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* grid-template-columns: repeat(7, 1fr); */
     gap: 60px;
     border-top: 1px solid #f0f0f0;
     border-bottom: 1px solid #f0f0f0;
