@@ -44,7 +44,8 @@ body {
 
 
 .header-container,
-.product {
+.product,
+.featured {
     margin: 0 120px;
 }
 
@@ -71,6 +72,7 @@ span {
 .navbar {
     justify-content: space-between;
     margin: 85px 120px 0px;
+    /* background-color: #E02C6D; */
 }
 
 .nav-list {
@@ -103,6 +105,7 @@ span {
     grid-template-columns: repeat(2, 1fr);
     gap: 100px;
     align-items: center;
+    /* background-color: #E02C6D */
 }
 
 .header-info {
@@ -125,11 +128,13 @@ span {
     width: 100%;
     margin-top: 50px;
     margin-left: 30px;
+    /* background-color: aqua; */
 }
 
 .circle-bg {
     position: absolute;
     z-index: 1;
+    /* background-color: bisque; */
 }
 
 .camera-image {
@@ -152,6 +157,7 @@ span {
     border-bottom: 1px solid #f0f0f0;
     padding: 35px 0;
     text-align: center;
+    /* background-color: #E02C6D; */
 }
 
 
@@ -159,6 +165,8 @@ span {
 /* Product section styles  */
 .product {
     max-width: 1048px;
+    margin-bottom: 100px;
+    /* background-color: #E02C6D; */
 }
 
 .product-card-container {
@@ -214,12 +222,86 @@ span {
     margin-bottom: 4px;
 }
 
+/* Featured Section style  */
+
+.featured {
+    /* background-color: #E02C6D; */
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.feature-image img {
+    /* width: 100%;
+    height: 100%; */
+    display: block;
+}
+
+.feature-title {
+    font-size: 2.35rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #0A0826;
+}
+
+.feature-description {
+    font-weight: 600;
+    color: #6C6C6C;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+footer {
+    max-width: 1440px;
+    text-align: center;
+    background-color: #0A0826;
+}
+
+.footer-container {
+    padding: 50px 0;
+}
+
+.footer-container h2 {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer-container p {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
 
 
+.icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
 
+.icon {
+    width: 24px;
+    height: 24px;
+    background-color: #e8e6fc5b;
+    padding: 5px;
+    border-radius: 50%;
 
+}
 
+.icon-color {
+    color: #FFFFFF;
+    text-align: center;
+    margin-left: 4px;
+}
 
+.youtube {
+    margin: 0;
+}
 
 
 
